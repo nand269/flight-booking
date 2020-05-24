@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Booking</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="styles/booking.css"/>
+</head>
+
+<body>
+	<div class="navbar">
+		<img class="logo" src="images/logo.png" alt="logo">
+		<nav>
+			<ul class="nav_links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="booking.html" class="select">Book Flights</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<!-- <li></li> -->
+			</ul>
+		</nav>
+		<a class="cta" href="signup.html"><button>Sign Up</button></a>
+	</div>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="booking-cta">
+							<h1>Book your flight today</h1>
+							<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam numquam at</p> -->
+						</div>
+					</div>
+					<div class="col-md-7 col-md-offset-1">
+						<div class="booking-form">
+							<form>
+								<div class="form-group">
+									<div class="form-checkbox">
+										<label for="roundtrip">
+											<input type="radio" id="roundtrip" name="flight-type">
+											<span></span>Roundtrip
+										</label>
+										<label for="one-way">
+											<input type="radio" id="one-way" name="flight-type">
+											<span></span>One way
+										</label>
+										<label for="multi-city">
+											<input type="radio" id="multi-city" name="flight-type">
+											<span></span>Multi-City
+										</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<span class="form-label">Flying from</span>
+											<input class="form-control" type="text" placeholder="City or airport">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<span class="form-label">Flyning to</span>
+											<input class="form-control" type="text" placeholder="City or airport">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<span class="form-label">Departing</span>
+											<input class="form-control" type="date" required>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<span class="form-label">Returning</span>
+											<input class="form-control" type="date" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<span class="form-label">Adults (18+)</span>
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<span class="form-label">Children (0-17)</span>
+											<select class="form-control">
+												<option>0</option>
+												<option>1</option>
+												<option>2</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<span class="form-label">Travel class</span>
+											<select class="form-control">
+												<option>Economy class</option>
+												<option>Business class</option>
+												<option>First class</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+								</div>
+								<div class="form-btn">
+									<button class="submit-btn">Show flights</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer">
+			<div class="contact">
+				<h3>Contact</h3>
+				<i class="fas fa-map-marker-alt"></i>
+				<p>1430 Rue Notre Dame, St W, Montreal, QC</p><br>
+				<i class="fas fa-phone-alt"></i>
+				<p>1-800-1234-567</p><br>
+				<i class="fas fa-envelope"></i>
+				<p>info@aero.com</p>
+			</div>
+			<div class="newsletter">
+				<h3>Newsletter</h3>
+				<p>Sign up to our newsletter and be the first to know about latest news, special offers, events, and discounts</p>
+				<input type="text">
+				<button>Subscribe</button>
+			</div>
+			<div class="links">
+				<ul class="bottom_links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="booking.html">Book Flights</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<!-- <li></li> -->
+				</ul>
+			</div>
+		</div>
+		<p>&copy 2020 All Rights Reserved. Terms of Use and Privacy Policy</p>
+	</footer>
+<script src="https://kit.fontawesome.com/a4963748cf.js" crossorigin="anonymous"></script>	
+</body>
+
+</html>

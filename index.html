@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero | Book your flight</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div id="main-header">
+        <div class="navbar">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.html" class="select">Home</a></li>
+                    <li><a href="booking.html">Book Flights</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Customer Support</a></li>
+                    <!-- <li></li> -->
+                </ul>
+            </nav>
+            <a class="cta" href="signup.html"><button>Sign Up</button></a>
+        </div>
+        <div class="header">
+            <h1><span>Go</span> On Tour <br> With <span>Aero</span></h1>
+
+            <div class="tabs">
+                <a href="#" ><button class="tablinks active" onclick="openCity(event, 'Round')">Round Trip</button></a>
+                <a href="#"><button class="tablinks" onclick="openCity(event, 'One')">One Way</button></a>
+            </div>
+            <div>
+                <div id="Round" class="tabcontent" style="display: block;">
+                    <form action="/action_page.php" class="form">
+                        <i class="fas fa-plane-departure"></i>
+                        <!-- <label for="">From</label> -->
+                        <input type="text" class="text" placeholder="From">
+                        <i class="fas fa-plane-arrival"></i>
+                        <!-- <label for="">To</label> -->
+                        <input type="text" class="text" placeholder="To">
+                        <i class="far fa-calendar-alt"></i>
+                        <input type="date"> <span>-</span>
+                        <input type="date">
+
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+                <div id="One" class="tabcontent">
+                    <form action="/action_page.php" class="form">
+                        <i class="fas fa-plane-departure"></i>
+                        <!-- <label for="">From</label> -->
+                        <input type="text" class="text" placeholder="From">
+                        <i class="fas fa-plane-arrival"></i>
+                        <!-- <label for="">To</label> -->
+                        <input type="text" class="text" placeholder="To">
+                        <i class="far fa-calendar-alt"></i>
+                        <input type="date"> <span>-</span>
+                        <input type="date">
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+
+<div class="features">
+    <div class="content">
+        <i class="fas fa-search"></i>
+        <div class="description">
+            <h3>The World's Travel Search Engine</h3>
+            <p>You can use our search engine to find any flight you want and select a desired destination and price</p>
+        </div>
+    </div>
+    <div class="content">
+        <i class="fas fa-plane"></i>
+        <div class="description">
+            <h3>Cheap and Beneficial Air Tickets</h3>
+            <p>We provide affordable tickets to the flights of almost all existing airlines so you don’t need to look for them.</p>
+        </div>
+    </div>
+    <div class="content">
+        <i class="fas fa-headset"></i>
+        <div class="description">
+            <h3>Our Support Lines are Open 24/7</h3>
+            <p>Our 24/7 support operators are always ready to help you select a proper flight according to your needs.</p>
+        </div>
+    </div>
+    <div class="content">
+        <i class="far fa-credit-card"></i>
+        <div class="description">
+            <h3>Convenient Payment Method For You</h3>
+            <p>We provide a variety of payment methods including cheque, cash, and credit cards.</p>
+        </div>
+    </div>
+</div>   
+<div class="destination">
+    <h1><span>Top</span> Destinations</h1>
+    <div class="dest-card">
+        <div class="card">
+            <div class="img-container">
+                <img src="images/europe.jpeg" alt="">
+            </div>
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Europe</h3>
+        </div>
+        <!-- <div class="card">
+            <div class="img-container">
+                <img src="images/australia.jpg" alt="">
+            </div>
+        </div> -->
+        <div class="card">
+            <div class="img-container">
+                <img src="images/africa.jpeg" alt="">
+            </div>
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Africa</h3>
+        </div>
+        <div class="card">
+            <div class="img-container">
+                <img src="images/america.jpeg" alt="">
+            </div>
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>America</h3>
+        </div>
+        <div class="card">
+            <div class="img-container">
+                <img src="images/asia.jpeg" alt="">
+            </div>
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Asia</h3>
+        </div>
+    </div>
+</div> 
+<div class="support">
+    <div class="support-details">
+        <h3>24/7 Support</h3>
+        <h1>Tel. 1-800-1234-567</h1>
+        <p>Our Support Service is available 24 hours a day, 7 days a week to help you buy your tickets.</p>
+        <button>Get in touch</button>
+    </div>
+</div>
+<div class="airlines">
+    <div class="air-img">
+        <img src="images/airline-1.jpg" alt="">
+    </div>
+    <div class="air-img">
+        <img src="images/airline-2.jpg" alt="">
+    </div>
+    <div class="air-img">
+        <img src="images/airline-3.jpg" alt="">
+    </div>
+    <div class="air-img">
+        <img src="images/airline-4.jpg" alt="">
+    </div>
+    <div class="air-img">
+        <img src="images/airline-5.jpg" alt="">
+    </div>
+    <div class="air-img">
+        <img src="images/airline-6.jpg" alt="">
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="contact">
+            <h3>Contact</h3>
+            <i class="fas fa-map-marker-alt"></i>
+            <p>1430 Rue Notre Dame, St W, Montreal, QC</p><br>
+            <i class="fas fa-phone-alt"></i>
+            <p>1-800-1234-567</p><br>
+            <i class="fas fa-envelope"></i>
+            <p>info@aero.com</p>
+        </div>
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <p>Sign up to our newsletter and be the first to know about latest news, special offers, events, and discounts</p>
+            <input type="text">
+            <button>Subscribe</button>
+        </div>
+        <div class="links">
+            <ul class="bottom_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Book Flights</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <!-- <li></li> -->
+            </ul>
+        </div>
+    </div>
+    <p>&copy 2020 All Rights Reserved. Terms of Use and Privacy Policy</p>
+</footer>
+<!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>   -->
+<script src="scripts/main.js"></script>
+<script src="https://kit.fontawesome.com/a4963748cf.js" crossorigin="anonymous"></script>
+</body>
+</html>

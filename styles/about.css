@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    /* background-color: rgb(235, 235, 255); */
+}
+body{
+    background-color: #f5f5f5;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: none;
+} 
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    /* left: 0; */
+}
+.select{
+    border-bottom: 2px solid #FFA45B;
+}
+.logo{
+    width: 150px;
+    /* float: left; */
+}
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.nav_links li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.navbar li a:hover{
+    color: black;
+    border-bottom: 2px solid #FFA45B;
+}
+
+.navbar button{
+    /* float: right; */
+    padding: 9px 25px;
+    background-color: #FFA45B;
+    /* background-color: inherit; */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #FFF;
+    margin: 10px 10px 0 0 ;
+}
+.navbar button:hover{
+    background: #000;
+    color: #FFA45B;
+}
+
+.about{
+    background: url('../images/about.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.about h1{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.about p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about button{
+    padding: 8px 15px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.about button:hover{
+    background: #fff;
+    color: #000;
+}
+
+.about-us{
+    width: 100%;
+    /* height: 70vh; */
+    /* background: url('../images/support.jpg'); */
+    background: #f5f5f5;
+    padding: 0 20px 20px 0;
+    display: flex;
+
+}
+
+.about-details{
+    width: 50%;
+    /* margin-left: 50%; */
+    /* margin-top: 100px; */
+    padding: 50px 20px 20px 20px;
+}
+.about-details h3{
+    color: #36a8ab;
+}
+.about-details h1{
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+}
+.about-details h4{
+    padding: 10px;
+}
+.about-details button{
+    margin: 20px 0 0 0;
+    background: #FFA45B;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.about-details button:hover{
+    background: #36a8ab;
+}
+
+.about-us .image{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.about-us .image img{
+    width: 100%;
+}
+
+.qoute{
+    background: url(../images/qoute.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+.qoute-details{
+    width: 50%;
+    margin-left: 50%;
+    /* margin-top: 100px; */
+    padding: 100px 20px 20px 0px;
+    color: #fff;
+}
+.qoute cite{
+    color: #FFA45B;
+}
+
+
+
+
+
+footer{
+    background: #fff;
+}
+.contact p{
+    display: inline;
+}
+
+.footer{
+    display: flex;
+    padding-top: 40px;
+}
+
+.footer div{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer h3{
+    font-size: 25px;
+    border-bottom: 2px solid #36a8ab;
+}
+
+.footer div i{
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+}
+
+.newsletter p{
+    padding: 30px 10px 20px 0px;
+}
+
+.newsletter input{
+    padding: 8px;
+
+}
+
+.newsletter button{
+    padding: 5px 15px;
+    background-color: #0b4850;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.newsletter button:hover{
+    background: #36a8ab;
+}
+
+
+.bottom_links{
+    list-style: none;
+}
+
+.bottom_links li{
+    /* display: inline-block; */
+    padding: 20px 20px;
+}
+
+.bottom_links li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.bottom_links li a:hover{
+    color: black;
+    border-bottom: 2px solid #FFA45B;
+}
+
+footer p{
+    padding: 20px 0 20px 10px;
+}
